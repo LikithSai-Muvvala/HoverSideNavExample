@@ -1,0 +1,29 @@
+.hover-right-sidenav {
+  position: realative;
+  width: 100%;
+}
+
+.hover-button {
+  position: fixed;
+  top: 40%;
+  -moz-transform:rotate(-90deg);  
+  -webkit-transform:rotate(-90deg);  
+  -o-transform:rotate(-90deg);  
+  -ms-transform:rotate(-90deg);  
+  margin: -18px;
+}
+
+.hover-content {
+  position: fixed;
+  right: 0;
+  width: 60%;
+  top: 0;
+  height: 100vh;
+  background: white;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+form label {
+  font-weight: bold;
+}
